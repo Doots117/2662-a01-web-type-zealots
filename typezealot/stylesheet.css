@@ -1,0 +1,42 @@
+body {background-image:url(typebackground.png);
+background-attachment:fixed;
+}
+
+header{float:right;
+width:500px;
+}
+
+#right{float:right;
+width:500px;
+background-image:url(textbackground.png);
+padding:10px;
+}
+
+footer{float:right;
+padding: 7px;
+}
+
+nav {position:fixed;
+float:left;
+z-index:1;
+}
+
+li a {text-decoration:none;
+color:white;
+}
+li a:hover {
+color:grey;
+}
+
+ul {list-style:none;
+line-height:30px;}
+
+li {background-image:url(navbackground.png);
+padding: 17px;}
+
+h1, h2, h3 {font-family: 'Open Sans', sans-serif;
+}
+
+p, blockquote {font-family: 'Droid Serif', serif;
+font-size:15px;
+line-height: 23px;}
